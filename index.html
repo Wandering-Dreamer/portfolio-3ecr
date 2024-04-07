@@ -26,7 +26,8 @@
     <ul>
         <li class="card">
             <div class="image">
-                <img src="https://plus.unsplash.com/premium_photo-1683120974913-1ef17fdec2a8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfDF8MHx8fDA%3D" alt="">
+                <img src="https://plus.unsplash.com/premium_photo-1683120974913-1ef17fdec2a8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfDF8MHx8fDA%3D" 
+                alt="Foto de uma placa mãe com o centro brilhante">
             </div>
             <div class="texto">
                 <h3>Título do Projeto</h3>
@@ -35,7 +36,8 @@
         </li>
         <li class="card">
             <div class="image">
-                <img src="https://plus.unsplash.com/premium_photo-1683120974913-1ef17fdec2a8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfDF8MHx8fDA%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto de uma mão robótica">
             </div>
             <div class="texto">
                 <h3>Título do Projeto</h3>
@@ -44,7 +46,8 @@
         </li>
         <li class="card">
             <div class="image">
-                <img src="https://plus.unsplash.com/premium_photo-1683120974913-1ef17fdec2a8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfDF8MHx8fDA%3D" alt="">
+                <img src="https://plus.unsplash.com/premium_photo-1673709635882-3bd099a72359?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto de uma placa mãe vertical">
             </div>
             <div class="texto">
                 <h3>Título do Projeto</h3>
@@ -54,7 +57,54 @@
     </ul>
 </section>
 
-<span id="orcamento">R$ 500.00</span>
+<section id="secao-orcamento">
+    <h2>Faça um orçamento</h2>
+
+    <form action="">
+        <div class="campo linha">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+        </div>
+        
+        <div class="campo">
+            <label for="qtde">Qtde de pág.</label>
+            <input type="number" id="qtde" min="1" value="1">
+        </div>
+        
+        <div class="campo">
+            <label for="tipo">Tipo de Site</label>
+            <select name="tipo" id="tipo">
+                <option value="1">Estático</option>
+                <option value="2">Dinâmico</option>
+            </select>
+        </div>
+
+        <div class="campo linha">
+            <label for="">Precisa de protótipo?</label>
+            <div>
+                <input name="prototipo" type="radio" id="prototipo_sim">
+                <label for="prototipo_sim">sim, preciso</label>
+            </div>
+            <div>
+                <input name="prototipo" type="radio" id="prototipo_nao">
+                <label for="prototipo_nao">não, já tenho</label>
+            </div>
+        </div>
+        
+        <div class="linha">
+            <input type="checkbox" id="js">
+            <label for="js">tem automação com JS</label>
+        </div>
+
+        <div class="campo linha">
+            <label for="prazo">Prazo</label>
+            <input type="range">
+        </div>
+
+    </form>
+    
+    <span id="orcamento">R$ 500,00</span>
+</section>
 
 </body>
 </html>
