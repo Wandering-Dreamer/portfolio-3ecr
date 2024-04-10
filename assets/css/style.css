@@ -92,15 +92,20 @@ h1{
 }
 
 .card:hover .image{
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
-#secao-orcamento{
+#secao-info{
     height: 100vh;
     padding: 3rem;
+    background-color: #EAAFC8;
+        font-family: 'Poppins', sans-serif;
+    font-weight: 800px;
+    font-size: 24px;
+    color: #f4f4f4
 }
 
-#secao-orcamento form{
+#secao-info form{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
@@ -134,3 +139,4 @@ input[type=checkbox],
 input[type=range]{
     accent-color: #F0C;
 }
+
